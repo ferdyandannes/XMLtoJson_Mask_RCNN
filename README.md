@@ -1,4 +1,10 @@
 # XMLtoJson_Mask_RCNN
+
+
+Add changes in the grab file names, speed up the process
+
+
+
 Use the segmentation in Mask_RCNN, even if the annotation form is rectangular instead of polygon.
 
 The use of false masks does not help the model being generated to be more
