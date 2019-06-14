@@ -38,13 +38,11 @@ def process_bar(count, total, status=''):
 def grabNamesImages():
     for file in path:
         files = os.listdir(file)
-        for name in files:
-            #imgs = []
-            with open(file + '/image.txt', 'w') as f:
-                for item in files:
-                    if (item.endswith('.jpg')):
-                        f.write("%s\n" % item)
-            f.close()
+        with open(file + '/image.txt', 'w') as f:
+            for item in files:
+                if (item.endswith('.jpg')):
+                    f.write("%s\n" % item)
+        f.close()
         print("List of images, images.tx, was save in", file)
 
 
