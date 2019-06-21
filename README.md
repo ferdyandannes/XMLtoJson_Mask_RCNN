@@ -12,6 +12,8 @@ precise, as it is not providing new information beyond the bounding boxes.
 
 Generates the polygon shape between the four points of the rectangle in order to achieve the polygon shape, a false mask for the maskrcnn.
 
+DI DALEM FILE TRAIN ADA SEMUA IMAGE & FILE XML NYA
+VAL JUGA SAMA
 
 ### run this file inside your /dataset folder
 * /dataset
